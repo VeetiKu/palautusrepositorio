@@ -10,4 +10,6 @@ class Player:
 
     
     def __str__(self):
-        return f"{self.name:20} {self.team:20} {self.goals:3} + {self.assists:3} = {self.points:3}"
+        return f"{self.name:20} {self.team:20} {self.goals} + {self.assists} = {self.points}"
+    
+
