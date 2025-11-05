@@ -7,6 +7,8 @@ def main():
 
     players = [Player(player_dict)for player_dict in response]
     players_FIN = [p for p in players if p.nationality == "FIN"]
+    
+    players_FIN.sort(key=lambda p: p.points, reverse=True)
 
 
     print("\nPlayers from FIN:\n")
