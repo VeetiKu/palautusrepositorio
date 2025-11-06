@@ -1,3 +1,4 @@
+# pylint: disable=too-few-public-methods
 class PlayerStats:
     def __init__(self, reader):
         self.players = reader.get_players()

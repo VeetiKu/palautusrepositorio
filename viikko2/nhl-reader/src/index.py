@@ -1,8 +1,9 @@
-from player_reader import PlayerReader
-from player_stats import PlayerStats
 from rich.console import Console
 from rich.prompt import Prompt
 from rich.table import Table
+from player_reader import PlayerReader
+from player_stats import PlayerStats
+
 
 console = Console()
 
@@ -41,9 +42,6 @@ def main():
 
     console.print()
     console.print(table)
-    
-    
-    
-    
+
 if __name__ == "__main__":
     main()
