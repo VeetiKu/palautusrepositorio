@@ -1,4 +1,3 @@
-# tehdään alussa importit
 
 from logger import logger
 from summa import summa
@@ -11,4 +10,4 @@ y = int(input("luku 2: "))
 print(f"{summa(x, y)}")
 print(f"{erotus(x, y)}")
 
-logger("lopetetaan")
+logger("lopetetaan ohjelma")
